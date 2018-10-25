@@ -71,7 +71,7 @@ You can also add images like this:
 
 const renderer = new marked.Renderer();
   renderer.link = function(href, title, text) {var link = marked.Renderer.prototype.link.call(this, href, title, text);
-  return link.replace("<a","<a target='_blank' ");
+  return link.replace("<a","<a target='_blank' rel='noopener noreferrer'");
 };
 
 marked.setOptions({
@@ -103,7 +103,7 @@ class App extends Component {
           <h2>(WINAMP Is Not Another Markdown Previewer)</h2>
         </header>
         <main>
-          <div class="main">
+          <div className="main">
             <textarea id="editor" onChange={this.handleChange} value={this.state.input}></textarea>
             <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.input)}}></div>
           </div>

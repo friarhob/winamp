@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/winamp-md/precache-manifest.8cb1a9a65e5b94cdcca7830cb6c0d124.js"
+  "/winamp-md/precache-manifest.3baf246adba776840e72d6aa57bb7dee.js"
 );
 
 workbox.clientsClaim();
