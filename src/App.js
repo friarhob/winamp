@@ -5,7 +5,7 @@ import marked from 'marked';
 var defaultText = `___
 *Want lo learn how to do pages like this yourself? Access* **[FreeCodeCamp](https://www.freecodecamp.org)** *and learn how to program in JavaScript today!*
 ___
-Otherwise, just edit your text at left, considering the examples showed off:
+Otherwise, just edit your text at left, considering the examples below:
 ___
 
 # Title 1
@@ -109,7 +109,7 @@ class App extends Component {
           </div>
         </main>
         <footer>
-          <a target="_blank" href="https://github.com/friarhob">Friar Hob</a> wishes you all to have a great life!
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/friarhob">Friar Hob</a> wishes you all to have a great life!
         </footer>
       </div>
     );

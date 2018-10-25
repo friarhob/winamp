@@ -52,10 +52,36 @@ footer
   padding-top: 2px;
   text-align: center;
   font-style: italic;
-  font-size: 10px;
+  font-size: 12px;
   background-color: hsl(144, 5%, 64%);
   color: hsl(144, 5%, 24%);
   font-family: Arial, sans-serif;
+}
+
+footer > a
+{
+  font-weight: bold;
+  color: hsl(144, 5%, 14%);
+}
+
+footer > a:link
+{
+  text-decoration: none;
+}
+
+footer > a:visited
+{
+  text-decoration: none;
+}
+
+footer > a:hover
+{
+  text-decoration: underline;
+}
+
+footer > a:active
+{
+  text-decoration: underline;
 }
 
 .main
