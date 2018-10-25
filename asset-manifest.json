@@ -1,13 +1,13 @@
 {
-  "main.css": "/winamp-md/static/css/main.6351356e.chunk.css",
-  "main.js": "/winamp-md/static/js/main.2569df41.chunk.js",
-  "main.js.map": "/winamp-md/static/js/main.2569df41.chunk.js.map",
+  "main.css": "/winamp-md/static/css/main.ee646b89.chunk.css",
+  "main.js": "/winamp-md/static/js/main.5124207d.chunk.js",
+  "main.js.map": "/winamp-md/static/js/main.5124207d.chunk.js.map",
   "static/js/1.6d3997d6.chunk.js": "/winamp-md/static/js/1.6d3997d6.chunk.js",
   "static/js/1.6d3997d6.chunk.js.map": "/winamp-md/static/js/1.6d3997d6.chunk.js.map",
   "runtime~main.js": "/winamp-md/static/js/runtime~main.12527a6a.js",
   "runtime~main.js.map": "/winamp-md/static/js/runtime~main.12527a6a.js.map",
-  "static/css/main.6351356e.chunk.css.map": "/winamp-md/static/css/main.6351356e.chunk.css.map",
+  "static/css/main.ee646b89.chunk.css.map": "/winamp-md/static/css/main.ee646b89.chunk.css.map",
   "index.html": "/winamp-md/index.html",
-  "precache-manifest.3baf246adba776840e72d6aa57bb7dee.js": "/winamp-md/precache-manifest.3baf246adba776840e72d6aa57bb7dee.js",
+  "precache-manifest.9bd543a9867ed08ec1770b092042d14a.js": "/winamp-md/precache-manifest.9bd543a9867ed08ec1770b092042d14a.js",
   "service-worker.js": "/winamp-md/service-worker.js"
 }
