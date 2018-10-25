@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/winamp-md/static/js/runtime~main.12527a6a.js"
   },
   {
-    "revision": "989e8e8c48445b11eb98",
-    "url": "/winamp-md/static/js/main.989e8e8c.chunk.js"
+    "revision": "2569df4172a428412a39",
+    "url": "/winamp-md/static/js/main.2569df41.chunk.js"
   },
   {
     "revision": "6d3997d6361bdeaea11c",
     "url": "/winamp-md/static/js/1.6d3997d6.chunk.js"
   },
   {
-    "revision": "989e8e8c48445b11eb98",
+    "revision": "2569df4172a428412a39",
     "url": "/winamp-md/static/css/main.6351356e.chunk.css"
   },
   {
-    "revision": "7c9187465449d87c009ea054c1e11dff",
+    "revision": "df11d27336cf228633dcf8adc05b418e",
     "url": "/winamp-md/index.html"
   }
 ];
