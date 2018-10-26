@@ -1,20 +1,21 @@
 body
 {
   height: 100%;
+  width: 100%;
   background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
 }
 
 header
 {
-  position: fixed;
-  top: 0;
-  left: 0;
+/*  position: fixed;*/
   width: 100%;
   height: 80px;
   text-align: center;
-  padding: 0px;
+  padding: 10px;
   border: 0px;
-  margin: 0px;
+  margin: 10px;
   background-color: hsl(144, 5%, 64%);
   color: hsl(144, 5%, 24%);
 }
@@ -36,8 +37,7 @@ header > h2
 
 main
 {
-  position: fixed;
-
+/*  position: fixed; */
   width: 100%;
   top: 85px;
   left: 0px;
@@ -86,14 +86,23 @@ footer > a:active
 
 .main
 {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+  height: 500px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
 }
 #editor
 {
-  width: 46%;
-  float: left;
+  width: 300px;
+  min-width: 45%;
+  margin: 0;
+  padding:0;
   height: 500px;
-  margin-left: 2%;
+  max-height: 100%;
   border: 1px solid #000000;
   overflow-y: scroll;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -104,12 +113,13 @@ footer > a:active
 #preview
 {
   text-align: justify;
-  width: 46%;
-  float: right;
+  width: 300px;
+  min-width: 45%;
   height: 500px;
+  min-height: 100%;
   border: 1px solid #000000;
   padding: 0px;
-  margin-right: 2%;
+  margin: 0;
   overflow-y: scroll;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 14px;
